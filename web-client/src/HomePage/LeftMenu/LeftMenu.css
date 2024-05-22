@@ -1,0 +1,27 @@
+.list-group-item{
+    border: 0;
+    background-color: transparent;
+    padding: 15px;
+}
+.list-group-item:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    width: 100%;
+}
+
+.LeftMenu{
+    position: sticky;
+    top: 55px;
+    height: calc(100vh-55px);
+    flex: 3;
+    
+}
+
+#dark .LeftMenu{
+    background-color: #000000;
+    color: white;
+}
+
+#dark .ms-2, #dark i{
+    color: white;
+}

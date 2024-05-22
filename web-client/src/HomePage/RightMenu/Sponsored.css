@@ -1,0 +1,19 @@
+
+.Sponsored{
+    padding-left: 15px;
+}
+
+.Sponsored img{  
+    padding-top: 10px;
+    border-radius: 10%;
+    padding-left: 2px;
+}
+
+hr{
+    border: none;
+    margin: 10px 0px;
+    background-color: rgb(152, 145, 145);
+  }
+  .card-title{
+    padding-left: 12px;
+  }

@@ -1,0 +1,21 @@
+#light .MenuLogOut{
+    position: fixed;
+    z-index: 999;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 0.5rem;
+}
+#dark .MenuLogOut{
+    position: fixed;
+    z-index: 999;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+.MenuLogOut button{
+    width: 100%;
+    align-items: center;
+}

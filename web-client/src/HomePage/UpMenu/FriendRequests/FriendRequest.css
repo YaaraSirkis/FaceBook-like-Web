@@ -1,0 +1,48 @@
+
+.Request {
+
+    z-index: 999;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 0.5rem;
+}
+#dark .Request {
+  
+    z-index: 999;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+.Request button{
+    padding-left: 1rem;
+}
+
+.name {
+    padding-left: 1rem;
+}
+.card-img-bottom-user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.list-group-item{
+    border: 0;
+    background-color: transparent;
+    padding: 14px;
+
+}
+.list-group-item:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    width: 100%;
+} 
+
+#dark .list-group-item::hover {
+    background-color: #3a3a3a;
+}

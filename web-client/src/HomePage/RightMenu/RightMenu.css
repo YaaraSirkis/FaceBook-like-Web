@@ -1,0 +1,15 @@
+.RightMenu{
+    position: sticky;
+    top: 55px;
+    height: calc(100vh-55px);
+    flex: 3;
+    padding-right: 1rem;
+}
+
+#dark .RightMenu{
+    background-color: #000000;
+}
+
+#dark .name{
+    color: white;
+}

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: #F0F2F5; 
+    position: relative;
+}
+
+header .main {
+    position: absolute;
+    top: 25%;
+    width: 70%;
+    display: flex;
+
+}
+
+header .main .left {
+    flex: 1;
+    justify-content: left;
+}
+
+header .main .right {
+    flex: 1;
+    position: relative;
+    right: 0px;
+    margin-left: 400px;
+}
+
+header .main .left p {
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    margin-left: 5px;
+    margin-right: -80px;
+    margin-top: 0px;
+    position: relative;
+    right: 0px;
+    margin-left: 150px;
+    font-weight: 400;
+}
+
+header .main .left img {
+    height: 100px;
+    width: 250px;
+    position: relative;
+    right: 0px;
+    margin-left: 150px;
+}
+
+header .main .right #form {
+    background: #fff;
+    width: 396px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 20px 0 28px;
+    border-radius: 8px;
+    margin-top: -50px;
+}
+
+.form_body {
+    padding: 0 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+#form input {
+    flex: 1;
+    padding: 14px 16px;
+    width: 100%;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-size: 17px;
+    border-radius: 5px;
+    outline-color: #8AB7EF;
+}
+
+.login {
+   /* background-color: #1877f2; */
+    /*background-color: #18f239;*/
+    background-color: #40E0D0;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    padding: 0 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.forget {
+    text-align: center;
+    color: #1877f2;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.forget:hover {
+    text-decoration: underline;
+}
+
+hr {
+    background-color: rgba(128, 128, 128, 0.349);
+    height: 0.2px;
+
+}
+
+.create {
+    background-color: #40E0D0;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 192px;
+    padding: 0 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+}
+
+#error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+};

@@ -1,0 +1,37 @@
+.HomePage {
+    font-family: Arial, sans-serif;
+
+}
+
+html {
+    background: rgb(240, 241, 242);
+}
+
+#dark {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#dark p, #dark a {
+    color: white;
+}
+
+#dark .form-control::placeholder {
+    color: rgb(158, 153, 153);
+}
+
+
+
+
+
+.feed{
+    z-index: 0;
+    isolation: isolate;
+}
+
+.upfeed{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}

@@ -1,0 +1,32 @@
+
+
+.name {
+    padding-left: 1rem;
+}
+.headLine {
+    padding: 1rem;
+}
+.card-img-bottom-user{
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.list-group-item{
+    border: 0;
+    background-color: transparent;
+    padding: 14px;
+
+}
+.list-group-item:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    width: 100%;
+} 
+
+#dark .list-group-item::hover {
+    background-color: #3a3a3a;
+}
+

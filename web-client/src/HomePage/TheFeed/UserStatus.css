@@ -1,0 +1,95 @@
+.enterStatuse{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.enterStatuse i {
+    margin-right: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.card{
+    width: min(40rem, 100%);
+
+
+}
+
+
+
+#dark .btn ,#dark .statusePic, #dark input, #dark .card {
+    background-color: rgb(63, 63, 63);
+    color:white;
+}
+
+
+
+
+
+
+.statusButton button {
+ 
+    flex: 1 1 0%;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.statusButton{
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top:1rem;
+}
+
+
+.enterStatuse img{
+    width: 40px;
+    height: 40px;
+margin-left: 1.5rem;
+margin-right: 1rem;
+margin-top: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.statusetext {
+padding-right: 1em;
+padding-top: 20px;
+width: 60%;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-color:  lightgray;
+  
+    width: min(23rem,100%);
+    border-radius: 5px;
+    padding: 5px;
+   
+}
+input{
+    border: none;
+    
+
+}
+
+.statusePic{
+    margin-top: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    align-items: center;
+    display: flex !important;
+    width: 30% !important;
+}

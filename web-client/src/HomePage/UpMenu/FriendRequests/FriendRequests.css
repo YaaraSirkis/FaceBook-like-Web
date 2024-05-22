@@ -1,0 +1,18 @@
+.FriendRequests{
+    position: fixed;
+    z-index: 999;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    left: 55%;
+}
+
+#dark .no{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.no{
+    background-color: white;
+    color: black;
+}
